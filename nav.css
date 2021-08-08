@@ -1,0 +1,249 @@
+body{
+    background-color: black;
+}
+
+.grid3{
+  
+  position: relative;
+  top: 20px;
+  position: fixed;
+  z-index: 1;
+  
+}
+
+@media screen and (min-width: 10px) and (max-width: 960px) {
+
+    .grid1>span{
+      padding-left: 50px;
+      display: none;
+    }
+    .grid1>a {
+      display: none;
+      position: fixed;
+    }
+    .grid7{
+      display: none;
+    }
+    .grid2{
+      margin-top: 20px;
+    }
+
+  }
+  .grid1>span,.hedu{
+    font-size: 30px;
+    font-family: 'Carter One', cursive;
+    color: #ffc107;
+  }
+  .container{
+      margin-top: 5px;
+  }
+  .grid1>a{
+    font-size: 20px;
+    font-family: 'Carter One', cursive;
+    color:white;
+    text-decoration: none;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  /* .grid1{
+    
+      background-color: #1F1F1F;
+      border-radius: 5px;
+  } */
+  .grid1>a:hover{
+    color: #ffc107;
+    box-shadow: 2px 2px grey;
+   
+  }
+  .grid2{
+      
+      margin-top: 100px;
+  }
+  .grid4{
+      margin-top: 120px;
+      text-align: center;
+  }
+  
+
+  @media screen and (min-width: 960px)
+  {
+    .grid3{
+      display: none;
+    }
+
+  }
+  .grid5{
+
+    margin-top: 90px;
+    
+ 
+    
+    color:white;
+  }
+  .grid6{
+    margin-top: 70px;
+  }
+  .grid5>h1{
+      
+      font-size: 50px;
+  }
+  .grid3{
+    margin-bottom: 50px;
+    margin-left: 10px;
+  }
+  .dropdown-menu{
+    background-color: #1F1F1F;
+    
+  }
+  .dropdown-item{
+    color: #ffc107;
+  }
+  .grid4>a{
+    color: #ffc107;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .grid4>a:hover{
+    color: white;
+    background-color: #1F1F1F;
+  }
+
+  .btn-secondary {
+    color: #fff;
+    background-color: #ffc107;
+    border-color: grey;
+  }
+  @media screen and (min-width: 10px) and (max-width: 960px) {
+
+    .grid4{
+      margin-top: 50px;
+    }
+    .grid5{
+
+      margin-top: 5px;
+    }
+    .grid6{
+      margin-top: 20px;
+      margin-left: 50px;
+    }
+    .card{
+      margin-top: 20px;
+    }
+  }
+  .grid7{
+    background-color: black;
+    margin-top: 130px;
+    margin-left: 180px;
+  }
+  .iscdown{
+    margin-top: 20px;
+    animation-name: scdown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin-bottom: 30px;
+    
+  }
+  .skills{
+    animation-name: scdown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes scdown {
+    0%{
+      color: grey;
+ 
+    }
+    25%{
+ 
+    }
+    50%{
+      color: #ffc107;
+ 
+    }
+    75%{
+ 
+    }
+    100%{
+      color: grey;
+ 
+    }
+  }
+.card{
+  position: relative;
+  left: 50px;
+}
+.card-text{
+  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+  position: fixed;
+  z-index: 1;
+  text-align: center;
+}
+.grid4{
+  margin-top: 150px;
+}
+.grid5{
+  margin-top: 90px;
+}
+.grid6{
+  margin-top: 90px;
+}
+@media screen and (min-width: 10px) and (max-width: 960px) {
+  .grid4{
+    margin-top: 100px;
+  }
+  .grid5{
+    margin-top: 20px;
+  }
+  .grid6{
+    margin-top: 20px;
+  }
+  nav{
+    display: none;
+  }
+
+}
+.grid11{
+  margin-top: 50px;
+}
+.grid12{
+  margin-top: 70px;
+}
+.progress{
+  margin-top: 40px;
+}
+h1:hover{
+  color: #fff;
+  text-shadow: #ffc107;
+}
+@media screen and (min-width: 10px) and (max-width: 960px) {
+  .grid11{
+    margin-top: 80px;
+  }
+  .grid1>span{
+    margin-right: 0px;
+  }
+}
+nav{
+  background-color: #1F1F1F;
+  height: 45px;
+  margin-top: 0px;
+}
+footer{
+  background-color: #1F1F1F;
+}
+.social{
+  background-color: #1F1F1F;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+.social i{
+  margin: 20px;
+  animation-name: scdown;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
